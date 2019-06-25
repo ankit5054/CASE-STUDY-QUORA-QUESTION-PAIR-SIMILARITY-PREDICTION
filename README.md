@@ -118,3 +118,43 @@ longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(
 ### Visualization
   Using TSNE for Dimentionality reduction for 15 Features(Generated after cleaning the data) to 3 dimention
   ![download](https://user-images.githubusercontent.com/39160589/60084297-406abb00-975d-11e9-9d78-1c86d027456e.png)
+
+## MODELING WITH THE AVG W2V-TFIDF VECTORIZED DATA
+### A Random Model (Finding worst-case log-loss)
+Log loss on Test Data using Random Model 0.887242646958
+![download](https://user-images.githubusercontent.com/39160589/60084792-31d0d380-975e-11e9-9a9e-2a6fccf32754.png)
+
+
+### Logistic Regression
+The test log loss is: 0.520035530431
+![download](https://user-images.githubusercontent.com/39160589/60084918-6775bc80-975e-11e9-8b95-8aa6c94dc755.png)
+
+
+### Linear SVM
+The test log loss is: 0.489669093534
+![download](https://user-images.githubusercontent.com/39160589/60084988-88d6a880-975e-11e9-9a08-fdcd92ead71c.png)
+
+
+### XGBoost
+The test log loss is: 0.357054433715
+![download](https://user-images.githubusercontent.com/39160589/60085127-c20f1880-975e-11e9-882b-62df8800f21d.png)
+
+## MODELING WITH THE TFIDF VECTORIZED DATA
+### A Random Model (Finding worst-case log-loss)
+Log loss on Test Data using Random Model 0.8940929603220081
+![download](https://user-images.githubusercontent.com/39160589/60085401-3fd32400-975f-11e9-8fa3-6f326b9b3f20.png)
+
+
+### Logistic Regression
+The test log loss is: 0.6603882136027764 
+![download](https://user-images.githubusercontent.com/39160589/60085912-2da5b580-9760-11e9-884f-a39e39843236.png)
+
+### Linear SVM
+The test log loss is: 0.6603882136027764
+![download](https://user-images.githubusercontent.com/39160589/60085944-401fef00-9760-11e9-95e5-25184b91bf7a.png)
+
+### XGBoost
+The test log loss is: 0.357054433715
+![download](https://user-images.githubusercontent.com/39160589/60086061-6f366080-9760-11e9-895a-e8468a6895c8.png)
+
+
