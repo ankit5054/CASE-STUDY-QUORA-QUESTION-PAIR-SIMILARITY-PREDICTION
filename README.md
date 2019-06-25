@@ -109,3 +109,12 @@ token_set_ratio : https://github.com/seatgeek/fuzzywuzzy#usage http://chairnerd.
 
 longest_substr_ratio : Ratio of length longest common substring to min lenghth of token count of Q1 and Q2
 longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
+
+
+### Pair plot of features ['ctc_min', 'cwc_min', 'csc_min', 'token_sort_ratio']
+
+![download](https://user-images.githubusercontent.com/39160589/60084102-ec5fd680-975c-11e9-9f0e-ae57625065de.png)
+
+### Visualization
+  Using TSNE for Dimentionality reduction for 15 Features(Generated after cleaning the data) to 3 dimention
+  ![download](https://user-images.githubusercontent.com/39160589/60084297-406abb00-975d-11e9-9d78-1c86d027456e.png)
